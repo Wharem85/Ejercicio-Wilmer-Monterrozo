@@ -1,0 +1,43 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 24px;
+	background-color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	align-items: center;
+}
+
+.container-image {
+	height: 60px;
+	width: 220px;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid rgb(240, 240, 240);
+	border-radius: 30px;
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.agregar {
+	font-family: Arial;
+	font-size: 50px;
+	padding: 0px 0 0 25px;
+	margin: 0;
+	color: rgb(2, 176, 199);
+}
+
+.message p:nth-child(1){
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.container-image p {
+	font-size: 20px;
+	padding: 17px 15px 0 0;
+	margin: 0;
+}
+
+
+
+

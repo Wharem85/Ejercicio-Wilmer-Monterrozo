@@ -1,0 +1,87 @@
+.container-correos {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+	background-color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	align-items: center;
+}
+
+
+.stadistics {
+	width: 300px;
+}
+
+.stadistics-content {
+	padding: 25px
+}
+
+.env {
+	float: left;
+	width: 100px;
+	font-family: arial;
+	font-size: 15px;
+}
+
+.line-env {
+	padding: 0;
+	float: left;
+	width: 100px;
+	border-top: 3px solid rgb(87, 114, 235);
+  height: 2px;
+  max-width: 200px;
+  margin: 20px auto 0 auto;
+}
+
+.number {
+	padding: 0 20px;
+	float: left;
+	width: 10px;
+	font-family: arial;
+	font-size: 15px;
+}
+
+.received {
+	padding: 0;
+	float: left;
+	width: 100px;
+	border-top: 3px solid rgb(1, 206, 45);
+  height: 2px;
+  max-width: 200px;
+  margin: 20px auto 0 auto;
+}
+
+.notReceived {
+	padding: 0;
+	float: left;
+	width: 100px;
+	border-top: 3px solid rgb(246, 7, 7);
+  height: 2px;
+  max-width: 200px;
+  margin: 20px auto 0 auto;
+}
+
+.answered {
+	padding: 0;
+	float: left;
+	width: 100px;
+	border-top: 3px solid rgb(236, 213, 2);
+  height: 2px;
+  max-width: 200px;
+  margin: 20px auto 0 auto;
+}
+
+.message-icons {
+	padding-top: 70px;
+	padding-right: 15px;
+}
+
+.message-icons p:nth-child(2) {
+	font-family: sans-serif;
+	font-size: 17px;
+}
+
+.message-icons p:nth-child(3) {
+	font-family:sans-serif;
+	font-size: 25px;
+}
