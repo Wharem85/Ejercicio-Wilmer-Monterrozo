@@ -1,7 +1,7 @@
 .container-correos {
 	display: flex;
 	justify-content: space-between;
-	padding: 10px 20px;
+	padding: 50px 20px;
 	background-color: #fff;
 	font-family: 'Ubuntu', sans-serif;
 	align-items: center;
@@ -10,6 +10,7 @@
 
 .stadistics {
 	width: 300px;
+	background-color: rgb(250, 250, 250);
 }
 
 .stadistics-content {
@@ -72,8 +73,11 @@
 }
 
 .message-icons {
-	padding-top: 70px;
-	padding-right: 15px;
+	height: 170px;
+	width: 300px;
+	text-align: center;
+	padding-top: 40px;
+	background-color: rgb(250, 250, 250);
 }
 
 .message-icons p:nth-child(2) {
@@ -82,6 +86,39 @@
 }
 
 .message-icons p:nth-child(3) {
+	text-align: left;
+	padding-left: 78px;
 	font-family:sans-serif;
 	font-size: 25px;
+}
+
+.line-vertical {
+	position:absolute;
+	top: 218px;
+	width: 3px;
+  height: 70px;
+  float: left;
+	margin-left: 51px
+}
+
+.line-sent {
+	background-color: rgb(87, 114, 235);
+}
+
+.line-received {
+	background-color: rgb(1, 206, 45);
+}
+
+.line-notReceived {
+	margin-left: 40px;
+	background-color: rgb(246, 7, 7);
+}
+
+.line-answered {
+	margin-left: 40px;
+	background-color: rgb(236, 213, 2);
+}
+
+.message-answered {
+	padding-right: 70px;
 }
