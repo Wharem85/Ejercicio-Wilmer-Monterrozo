@@ -9,8 +9,9 @@
 
 
 .stadistics {
-	width: 300px;
+	width: 400px;
 	background-color: rgb(250, 250, 250);
+	border-radius: 30px;
 }
 
 .stadistics-content {
@@ -21,17 +22,23 @@
 	float: left;
 	width: 100px;
 	font-family: arial;
-	font-size: 15px;
+	font-size: 16px;
 }
 
 .line-env {
 	padding: 0;
 	float: left;
-	width: 100px;
+	width: 150px;
 	border-top: 3px solid rgb(87, 114, 235);
   height: 2px;
   max-width: 200px;
   margin: 20px auto 0 auto;
+}
+
+@media (max-width: 360px) {
+	.line-vertical {
+		visibility: hidden !important;
+	}
 }
 
 .number {
@@ -39,13 +46,13 @@
 	float: left;
 	width: 10px;
 	font-family: arial;
-	font-size: 15px;
+	font-size: 16px;
 }
 
 .received {
 	padding: 0;
 	float: left;
-	width: 100px;
+	width: 150px;
 	border-top: 3px solid rgb(1, 206, 45);
   height: 2px;
   max-width: 200px;
@@ -55,7 +62,7 @@
 .notReceived {
 	padding: 0;
 	float: left;
-	width: 100px;
+	width: 150px;
 	border-top: 3px solid rgb(246, 7, 7);
   height: 2px;
   max-width: 200px;
@@ -65,8 +72,8 @@
 .answered {
 	padding: 0;
 	float: left;
-	width: 100px;
-	border-top: 3px solid rgb(236, 213, 2);
+	width: 150px;
+	border-top: 3px solid rgb(212, 192, 8);
   height: 2px;
   max-width: 200px;
   margin: 20px auto 0 auto;
@@ -78,6 +85,7 @@
 	text-align: center;
 	padding-top: 40px;
 	background-color: rgb(250, 250, 250);
+	border-radius: 30px
 }
 
 .message-icons p:nth-child(2) {
@@ -94,11 +102,11 @@
 
 .line-vertical {
 	position:absolute;
-	top: 218px;
+	top: 305px;
 	width: 3px;
   height: 70px;
   float: left;
-	margin-left: 51px
+	margin-left: 51px;
 }
 
 .line-sent {

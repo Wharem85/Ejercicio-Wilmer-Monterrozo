@@ -1,0 +1,57 @@
+.title {
+	width: 200px;
+	height: 10px;
+	font-weight: bold;
+	font-size: 19px;
+	padding-left: 10px
+}
+
+.titulo {
+	width: 100px;
+}
+
+.reloj {
+	width: 18px;
+	padding: 0px 12px;
+	position: right;
+}
+
+.ver {
+	width: 18px;
+	padding: 0px 12px;
+	text-align: right;
+}
+
+.container {
+	padding-left: 20px;
+	padding-right: 100px;
+}
+
+.icon {
+	display: inline-block;
+	padding: 0 0 0 10px;
+	text-align: center;
+}
+
+.states {
+	display: inline-block;
+	font-size: 16px
+}
+
+.border {
+	width: 100px;
+	height: 10px;
+  border-bottom: none !important;
+	padding-left: 30px !important;
+}
+
+.letter {
+	font-size: 16px;
+	width: 215px;
+	margin: 10px 0;
+}
+
+button {
+	color: white;
+	visibility: hidden;
+}
